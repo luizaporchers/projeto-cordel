@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+ }
+
+ html, body {
+    height: 100vh;
+    background-color: #cecece;
+ }
+
+ header {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+ }
+
+ header h1 {
+    padding-top: 50px;
+ }
+
+ header p {
+    padding-bottom: 50px;
+ }
+
+ a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+ }
+
+section.normal {
+    background-color: #fff;
+    color: #333;
+    font-family: Arial, sans-serif;
+ }
+
+section.imagem {
+    background-color: #f2f2f2;
+    background-size: cover;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.324);
+    background-attachment: fixed;
+}
+
+section.imagem p {
+    background-color: rgba(0, 0, 0, 0.183);
+    border-radius: 10px;
+    max-width: 400px;
+    padding: 10px;
+
+ }
+
+section.imagem#img01 {
+    background-image: url('../pacote-d012/imagens/background001.jpg');
+    background-position: right center;
+    background-size: cover;
+ }
+
+section.imagem#img02 {
+    background-image: url('../pacote-d012/imagens/background002.jpg');
+    background-position: left center;
+    background-size: cover;
+ }
+
+ footer {
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+ }
